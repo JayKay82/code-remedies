@@ -1,2 +1,26 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Homepage
+
+body {
+  background-color: #212121;
+}
+
+.navbar, .well {
+  border-radius: 0;
+}
+
+.sign-up-box {
+  margin-top: 30px;
+}
+
+.remedy-box {
+  background-color: #9dcfcd;
+  border: 1px solid;
+  height: 200px;
+  margin: 10px 0;
+  padding: 0 20px;
+}
